@@ -1,6 +1,6 @@
 plotResidual <- function(x,name){
         
-        png(paste0((name),".png"))
+        png(paste0("plots/",(name),".png"))
         par(mfrow=c(2,2))
         
         plot(get(paste0("fit1", x))$residuals, get(paste0("revfit1", x))$residuals, 
