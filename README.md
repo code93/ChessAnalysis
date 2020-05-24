@@ -1,11 +1,6 @@
 # ChessAnalysis
 
-The username for which you want the games is defined in the chessAnalysis.R source file in the variable user of  the function getData.
 
-The games are taken from the site chess.com and is processed.
+## Run sourcing.R to run chessAnalysis.R, chessModels.R, predict.R and finalTest.R
 
-While chessModels.R makes the required linear models.
-
-plotRes.R makes the residual plots considering the respective black and white pieces/moves excluding pawns.
-
-# Run sourcing.R to run chessAnalysis.R, chessModels.R and plotRes.R
+## Result: The Outcome of a chess match can be determined by the number of moves of different pieces with more than 80% accuracy.
